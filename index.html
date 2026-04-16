@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newtech Solutions</title>
+  <meta name="description" content="Corporate IT training and workforce development." />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #0f172a;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 18px 24px;
+    }
+    .nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .tagline {
+      font-size: 13px;
+      color: #cbd5e1;
+      margin-top: 4px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+    .hero {
+      padding: 70px 24px;
+      background: #f8fafc;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    h1 {
+      font-size: 48px;
+      line-height: 1.15;
+      margin: 0 0 20px;
+    }
+    h2 {
+      font-size: 34px;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 22px;
+      margin-top: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+    .btns {
+      margin-top: 24px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-right: 12px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .btn-dark {
+      background: #0f172a;
+      color: white;
+    }
+    .btn-light {
+      border: 1px solid #cbd5e1;
+      color: #0f172a;
+      background: white;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+    }
+    .section {
+      padding: 70px 24px;
+    }
+    .muted {
+      color: #475569;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    ul.clean {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.clean li {
+      padding: 14px 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .contact-box {
+      background: #0f172a;
+      color: white;
+      border-radius: 18px;
+      padding: 36px;
+    }
+    .contact-box p {
+      color: #cbd5e1;
+    }
+    footer {
+      text-align: center;
+      padding: 26px 20px;
+      border-top: 1px solid #e2e8f0;
+      color: #64748b;
+      font-size: 14px;
+    }
+    @media (max-width: 900px) {
+      .hero-grid,
+      .grid-3,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      nav {
+        width: 100%;
+      }
+      nav a {
+        margin-left: 0;
+        margin-right: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div>
+        <div class="brand">Newtech Solutions</div>
+        <div class="tagline">Corporate IT Training and Workforce Development</div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#audience">Who We Serve</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p style="font-weight:700; letter-spacing:1px; text-transform:uppercase; color:#334155;">Corporate Technology Training</p>
+        <h1>Professional IT training designed for modern organizations</h1>
+        <p class="muted">
+          Newtech Solutions delivers practical technology training for businesses,
+          institutions, and professionals who need stronger technical skills,
+          structured learning, and measurable workforce development outcomes.
+        </p>
+        <div class="btns">
+          <a class="btn btn-dark" href="#contact">Schedule a Consultation</a>
+          <a class="btn btn-light" href="#programs">View Training Solutions</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <p style="color:#64748b; font-size:14px;">Trusted training partner</p>
+        <h3>Corporate training with practical business value</h3>
+        <p class="muted">
+          Our programs align technical learning with organizational goals so teams
+          can improve readiness, capability, and long-term performance.
+        </p>
+        <div class="grid-2" style="margin-top:20px;">
+          <div class="card">
+            <strong>Results-Driven</strong>
+            <p class="muted" style="margin-top:8px;">Training aligned to business needs</p>
+          </div>
+          <div class="card">
+            <strong>Scalable</strong>
+            <p class="muted" style="margin-top:8px;">Onsite, virtual, and hybrid delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Supporting organizations through professional IT education</h2>
+      <p class="muted" style="max-width:800px;">
+        Newtech Solutions provides professional technology training designed to support
+        workforce development, operational readiness, and long-term business performance.
+        Our programs cover foundational IT skills, cybersecurity awareness, infrastructure
+        knowledge, and customized learning paths for organizations seeking a more capable
+        and confident workforce.
+      </p>
+    </div>
+  </section>
+
+  <section id="programs" class="section" style="background:#f8fafc;">
+    <div class="container">
+      <h2>Training solutions aligned with today’s business and technology needs</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Cybersecurity Training</h3>
+          <p class="muted">Hands-on instruction in security fundamentals, risk awareness, defensive practices, and real-world threat scenarios.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud & Infrastructure</h3>
+          <p class="muted">Practical training on modern IT environments, networking, system administration, and cloud operations.</p>
+        </div>
+        <div class="card">
+          <h3>Workforce Upskilling</h3>
+          <p class="muted">Customized programs for teams that need stronger technical skills, better security awareness, and updated IT knowledge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="audience" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>Built for professionals, teams, and enterprise environments</h2>
+        <p class="muted">
+          We work with organizations and professionals who need dependable,
+          business-focused IT training that supports growth, resilience, and technical excellence.
+        </p>
+      </div>
+      <div class="card">
+        <ul class="clean">
+          <li>Corporate teams</li>
+          <li>Students and career changers</li>
+          <li>Government and nonprofit staff</li>
+          <li>Small and midsize businesses</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#f8fafc;">
+    <div class="container">
+      <h2>Why organizations choose us</h2>
+      <div class="grid-2">
+        <div class="card"><strong>Instructor-led training</strong></div>
+        <div class="card"><strong>Hands-on labs and guided exercises</strong></div>
+        <div class="card"><strong>Beginner to advanced learning paths</strong></div>
+        <div class="card"><strong>Customized programs for organizations</strong></div>
+        <div class="card"><strong>Flexible in-person and virtual delivery</strong></div>
+        <div class="card"><strong>Career-focused technical development</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Let’s discuss your organization’s training goals</h2>
+        <p>
+          Contact Newtech Solutions to request a consultation, discuss a custom
+          training program, or learn how our services can support your team’s
+          technology development goals.
+        </p>
+        <p><strong>Email:</strong> info@newtechsolutions.org</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Newtech Solutions. All rights reserved.
+  </footer>
+</body>
+</html>
